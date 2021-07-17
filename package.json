@@ -1,0 +1,29 @@
+{
+  "name": "simple-placeholder-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JellyBee/simple-placeholder-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JellyBee/simple-placeholder-website/issues"
+  },
+  "homepage": "https://github.com/JellyBee/simple-placeholder-website#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "autoprefixer": "^10.3.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.4"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.6",
+    "postcss-clean": "^1.2.2"
+  }
+}
